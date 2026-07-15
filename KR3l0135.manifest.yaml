@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR3l0135/v1
 canonical_location: https://kanripo.org/bkk/KR3l0135/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 裴子語林二卷
   identifiers:
@@ -17,11 +17,11 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR3l0135_001.yaml, hash: 'sha256:97c3cac3d7a62dea0c9af3a30e97da2ce3625b46e2124c7fa0dce799ecda4200'}
-  - {seq: 2, filename: KR3l0135_002.yaml, hash: 'sha256:b936cd41988faf39e86d6a336ae776bc120906f3c8ea33daefee7ff3f80d913a'}
+  - {seq: 1, filename: KR3l0135_001.yaml, hash: 'sha256:d61a0285dcf26277fcaeef6f65af86f2166a3cd3ff1b0ef16e04ecfcc3147bf5'}
+  - {seq: 2, filename: KR3l0135_002.yaml, hash: 'sha256:ab155b46988254dfb7e4803d62d62b957fb2148c47a9a5c939223b190eaf9f56'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR3l0135_001.markers.yaml, hash: 'sha256:e1fb406e119c3792d63bc83463cd0c310d69d11055073077ceea7453ac6a84db'}
-  - {seq: 2, role: markers, filename: assets/KR3l0135_002.markers.yaml, hash: 'sha256:95b5c4074ce35162cf28cd3c5536f047f1132c60c8ac11ae304e0f95b3565597'}
+  - {seq: 1, role: markers, filename: assets/KR3l0135_001.markers.yaml, hash: 'sha256:8628f0e45cf175305e7ed1d72927e0c58396fce509fdc6ab7f72cc21f22ad2d2'}
+  - {seq: 2, role: markers, filename: assets/KR3l0135_002.markers.yaml, hash: 'sha256:c5ecca392675dc8aaf490fd369c0c7ddd546f3dd68e3a93ab016c016e7ab9ec3'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,4 +43,7 @@ table_of_contents:
   label: 裴子語林卷下
   type: section
   level: 1
-hash: sha256:ee144a46e356836418568b2ce4901e8b6ffb0f183b16c38adc765b5f661bd0a8
+hash: sha256:426c14fd48512dab864cf7571038cbb77b92640fbaa981f590e7bc1baf3d484a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
